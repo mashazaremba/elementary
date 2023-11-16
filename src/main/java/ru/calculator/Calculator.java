@@ -23,22 +23,8 @@ public class Calculator {
         size = size - 5;
         System.out.println(size);{
 
-    public static void main(String[] args);
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
-
-        package ru.calculator;
-
-            public class ArgMethod {
-
-                public static void hello(String name, int age) {
-                    System.out.println("Hello, " + name + ", age = " + age);
-                }
 
 
-            }
 
         }
 
-}
