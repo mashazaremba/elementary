@@ -1,0 +1,17 @@
+package ru.inheritance;
+
+public class JSONReport extends TextReport {
+
+    @Override
+    public String generate(String name, String body) {
+        String ln = System.lineSeparator();
+        return "{" + ln
+                + "\t" + "\"name\" : \"" + name + "\"," + ln
+                + "\t" + "\"body\" : \"" + body + "\"" + ln
+                + "}";
+    }
+
+    public static void main(String[] args) {
+        System.out.println("\t\"name\"");
+    }
+}
